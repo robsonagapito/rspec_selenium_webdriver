@@ -3,6 +3,11 @@ rspec_selenium_webdriver
 
 Exemplo de testes funcionais utilizando Rspec + Selenium Webdriver
 
+Idealização e Criação:
+---------------------
+
+Este projeto foi idealizado por Diego Alves e implementado por Diego Alves e Robson Agapito.
+
 Iniciar a utilização:
 --------------------
 
