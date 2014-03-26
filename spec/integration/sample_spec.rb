@@ -1,12 +1,6 @@
 #coding: utf-8
 
-require "rubygems"
-require "rspec"
-require "selenium-webdriver"
-require "selenium-client"
-require "json"
-require 'support/datadriventest'
-require "support/sample.rb"
+require 'spec_helper'
 
 include RSpec::Expectations
 
