@@ -2,7 +2,7 @@
 
 #include RSpec::Expectations
 
-class Google
+class Google < ColorNames
   attr_accessor :driver
 
   def initialize(data)
