@@ -8,9 +8,9 @@ end
 
 group :test do
   gem "spreadsheet"
-  gem "rspec"
-  gem "rspec-rails"
-  gem "rspec-mocks"
+  gem "rspec", '2.14.1'
+  gem "rspec-rails",'2.14.1'
+  gem "rspec-mocks",'2.14.1'
   gem 'selenium-webdriver'
   gem 'selenium-client'
   gem 'webrat', '>=0.2.2'

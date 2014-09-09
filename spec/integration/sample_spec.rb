@@ -12,8 +12,6 @@ describe "Sample test suite" do
   end
   
   after(:each) do
-    @driver.quit
-    @verification_errors.should == []
   end
   
   it "Sample test", :test => true do
@@ -21,7 +19,7 @@ describe "Sample test suite" do
   end
 
   it "Sample test with class", :testA => true do
-    @google._openGooglePage
+    @google.__openGooglePage
   end
 
   it "DDT test", :testB => true do

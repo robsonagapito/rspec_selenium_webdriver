@@ -1,8 +1,6 @@
-require 'spreadsheet'
-
 #coding: utf-8
-
 #include RSpec::Expectations
+require 'spreadsheet'
 
 class DataDrivenTest
   attr_accessor :linha, :coluna

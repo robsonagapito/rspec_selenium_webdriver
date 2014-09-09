@@ -1,15 +1,14 @@
 #more colors, run on bash: for j in {0..5}; do for i in {0..100}; do echo "num: $i - $j" && echo -e '\033['$i';'$j'mSome text goes here. \033[0m' ;done ; done
 
-
 class ColorNames
 
 	def method_missing(symbol,*args)
-		color,name = symbol.to_s.split("_")
+		color,name = symbol.to_s.split("__")
 
-		if symbol.to_s =~ /^\S+\_/
+		if symbol.to_s =~ /^\S+\_\_/
 			send(color.to_sym,name)
 			send(name.to_sym,*args)
-		elsif symbol.to_s =~ /^\_/
+		elsif symbol.to_s =~ /^\_\_/
 			blue(name)
 			send(name.to_sym,*args)
 		else
