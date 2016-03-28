@@ -1,6 +1,6 @@
-#coding: utf-8
+# coding: utf-8
 
-#include RSpec::Expectations
+# include RSpec::Expectations
 
 class Google < ColorNames
   attr_accessor :driver
@@ -8,8 +8,8 @@ class Google < ColorNames
   def initialize(data)
     self.driver = data
   end
-  
+
   def openGooglePage
-    @driver.get("http://google.com")
+    @driver.get('http://google.com')
   end
 end
