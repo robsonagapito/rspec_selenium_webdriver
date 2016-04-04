@@ -1,5 +1,5 @@
-#coding: utf-8
-#include RSpec::Expectations
+# coding: utf-8
+# include RSpec::Expectations
 require 'spreadsheet'
 
 class DataDrivenTest
@@ -17,7 +17,7 @@ class DataDrivenTest
 
   def readLine(vSheet, vlineNumber)
     line = vSheet.row(vlineNumber)
-    line 
+    line
   end
 
   def readColumn(vSheet, vLine, vColumn)
@@ -30,10 +30,10 @@ class DataDrivenTest
   end
 
   def readSelectionedCell(vSheet)
-  	cel = vSheet.row(@linha)
+    cel = vSheet.row(@linha)
     if cel[@coluna].class == Spreadsheet::Formula then res = cel[@coluna].value
     else res = cel[@coluna]
     end
-    res 
+    res
   end
 end
