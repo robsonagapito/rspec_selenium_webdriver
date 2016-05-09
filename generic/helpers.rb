@@ -1,12 +1,7 @@
-require 'pry'
 require 'rubygems'
 require 'rspec'
 require 'selenium-webdriver'
-require 'selenium-client'
-require 'json'
-require 'open-uri'
-require 'openssl'
-require 'yaml'
+
 require File.dirname(__FILE__) + '/color_name.rb'
 
 module Helpers
